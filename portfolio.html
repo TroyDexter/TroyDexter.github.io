@@ -3,11 +3,73 @@
   <head>
     <meta charset="utf-8">
     <meta description="Portfolio For Troy Dexter">
-    <title></title>
-  </head>
-  <body>
-  <img src="images/Construction.png" width="1000px">
+    <link rel="icon" href="images/PortfolioIcon.ico">
+    <link rel="stylesheet" href="css/styles.css">
+    <title>Troy's Portfolio</title>
+    <style>
+    * {
+      box-sizing: border-box;
+    }
 
+    .column {
+      float: left;
+      width: 33.33%;
+      padding: 5px;
+    }
+
+    /* Clearfix (clear floats) */
+    .row::after {
+      content: "";
+      clear: both;
+      display: table;
+    }
+    </style>
+  </head>
+  <body class="FONT" style="background-color:Black">
+
+    <div class="TitlePage">
+      <h1>Troy Dexter</h1>
+      <h3>Game Developement Student</h3>
+      <h6 class="font">Click on any picture to download the .xcf file </h6>
+    </div>
+
+    <div style="background-color:#1D1F20; padding-top: 5px;">
+      <h2>My GIF Creations so far:</h2>
+      <div class="row">
+        <div class="column">
+          <h6>Dog pooping:</h6>
+          <a href="portfolio_downloads/DogPoop.xcf" download><img src="images/DogPoop.gif" class="rounded shadow" style="width:70%"> </a>
+        </div>
+        <div class="column">
+          <h6>Red jelly ball:</h6>
+          <a href="portfolio_downloads/RedBall.xcf" download><img src="images/RedBall.gif" class="rounded shadow" style="width:70%"> </a>
+        </div>
+        <div class="column">
+          <h6>Stickman falling:</h6>
+          <a href="portfolio_downloads/Stickman.xcf" download><img src="images/Stickman.gif" class="rounded shadow" style="width:70%"> </a>
+        </div>
+      </div>
+    </div>
+
+    <br><br>
+
+    <div style="background-color:#1D1F20;padding-top: 5px;">
+      <h2>My Pixel Art Creations so far:</h2>
+      <div class="row">
+        <div class="column">
+          <h6>Two Swords with shadow:</h6>
+          <a href="portfolio_downloads/TwoSwords.xcf" download><img src="images/TwoSwords.png" class="rounded shadow" style="width:70%"> </a>
+        </div>
+        <div class="column">
+          <h6>Wooden Shield:</h6>
+          <a href="portfolio_downloads/Shield.xcf" download><img src="images/Shield.png" class="rounded shadow" style="width:70%"> </a>
+        </div>
+        <div class="column">
+          <h6>Composite Image of both the Swords and Shield:</h6>
+          <a href="portfolio_downloads/CompositeImage.xcf" download><img src="images/CompositeImage.png" class="rounded shadow" style="width:70%"> </a>
+        </div>
+      </div>
+    </div>
 
 
   </body>
